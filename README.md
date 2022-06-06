@@ -19,7 +19,7 @@ Users should be able to:
 ![image](images/screenshot.png)
 
 -MOBILE
-![image](images/FireShot Capture 027 - Frontend Mentor - Loopstudios landing page - 127.0.0.1.png)
+![image](images/mobile.png)
 
 
 ### Built with
