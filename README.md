@@ -16,7 +16,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](images/screenshot.png)
+![image](images/FireShot Capture 027 - Frontend Mentor - Loopstudios landing page - 127.0.0.1.png)
 
 
 ### Built with
