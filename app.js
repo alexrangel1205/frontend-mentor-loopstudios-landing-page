@@ -23,7 +23,7 @@ mobileMenu.addEventListener('click',(e)=>{
 closeMark.addEventListener('click',(e) =>{
   for(let i = 0; i < showMenu.length; i++){
     showMenu[i].style.display = "none";
-    mobileBg.style.backgroundImage = "url('/images/mobile/image-hero.jpg')";
+    mobileBg.style.backgroundImage = "url('images/mobile/image-hero.jpg')";
     closeMark.style.visibility  = "hidden";
     mobileMenu.style.display = "block";
   }});
