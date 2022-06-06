@@ -26,7 +26,7 @@ closeMark.addEventListener('click',(e) =>{
     mobileBg.style.backgroundImage = "url('images/mobile/image-hero.jpg')";
     closeMark.style.visibility  = "hidden";
     mobileMenu.style.display = "block";
-    mobileBg.style.backgroundColor  = "transparent";
+    mobileBg.style.backgroundColor  = "initial";
   }});
 
   ScrollTrigger.matchMedia({
