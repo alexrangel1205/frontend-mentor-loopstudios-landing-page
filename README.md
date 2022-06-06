@@ -15,8 +15,10 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+-DESKTOP
 ![image](images/screenshot.png)
+
+-MOBILE
 ![image](images/FireShot Capture 027 - Frontend Mentor - Loopstudios landing page - 127.0.0.1.png)
 
 
