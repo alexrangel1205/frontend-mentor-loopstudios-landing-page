@@ -27,6 +27,7 @@ closeMark.addEventListener('click',(e) =>{
     closeMark.style.visibility  = "hidden";
     mobileMenu.style.display = "block";
     mobileBg.style.backgroundColor  = "initial";
+    hideHead.style.display = "block";
   }});
 
   ScrollTrigger.matchMedia({
