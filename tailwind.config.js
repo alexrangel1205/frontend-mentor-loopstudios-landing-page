@@ -13,8 +13,8 @@ module.exports = {
           xl: '1440px',
         },
         backgroundImage: theme => ({
-          'images-mobile': "url('/images/mobile/image-hero.jpg')",
-          'images-desktop': "url('/images/desktop/image-hero.jpg')",
+          'images-mobile': "url('images/mobile/image-hero.jpg')",
+          'images-desktop': "url('images/desktop/image-hero.jpg')",
           'image-interactive-mobile': "url('/images/mobile/image-interactive.jpg')",
           'image-interactive-desktop': "url('/images/desktop/image-interactive.jpg')",
           'image-hamburger': "url('/images/icon-hamburger.svg')",
