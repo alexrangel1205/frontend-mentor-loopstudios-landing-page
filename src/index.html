@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body class="overflow-x-hidden ">
+  <header>
+      <div class="
+      mobile-back
+      max-w-full 
+      mx-auto 
+      h-screen 
+      bg-cover 
+      bg-images-mobile 
+      md:bg-images-desktop 
+      md:bg-cover ">
+    <nav class="
+    flex 
+    py-5
+    justify-between
+    
+    ">
+      <img class=" 
+      h-7 
+      md:mr-auto
+      ml-7
+      mt-2
+      lg:translate-x-44
+      md:mt-7
+      
+      "
+      src="/images/logo.svg" alt="">
+      <div
+      class="
+      cursor-pointer 
+      md:hidden
+      lg:hidden
+      mr-6
+      mt-1
+  
+      "
+    >
+      <button>
+        <img class="
+        close
+        invisible
+        h-5
+        absolute
+        -translate-x-7
+        -translate-y-4
+        md:hidden
+        lg:hidden
+     
+     
+     " src="/images/icon-close.svg" alt="">
+        <img
+          class="
+          h-5
+          mobile  
+          bg-no-repeat   
+          bg-center  
+          "
+          src="/images/icon-hamburger.svg"
+          alt="mobile menu"
+        />
+   
+      </button>
+    </div>
+        <div class="
+        space-y-5
+        align-baseline
+        text-3xl
+        font-thin
+        md:font-normal
+        md:text-lg
+        p-5
+        ml-5
+        mt-20
+        md:flex
+        ls:flex
+        text-white 
+        md:pr-5 
+        md:right-6  
+        font-josefin 
+        gap-8 
+        md:justify-end  
+        top-11 
+        absolute 
+        md:mt-0
+        md:space-x-0
+        md:space-y-0
+        md:w-full h-20">     
+          <a class="
+          show-this
+          hidden 
+          md:block 
+          md:hover:underline 
+          decoration-2 
+          decoration-white"  
+          href="#">About</a>
+          <a class="
+          show-this
+          hidden 
+          md:block 
+          md:hover:underline 
+          decoration-2 
+          decoration-white"  
+          href="#">Careers</a>
+          <a class="
+          show-this
+          hidden 
+          md:block 
+          md:hover:underline 
+          decoration-2 
+          decoration-white"  
+          href="#">Events</a>
+          <a class="
+          show-this
+          hidden 
+          md:block 
+          md:hover:underline 
+          decoration-2 
+          decoration-white"  
+          href="#">Products</a>
+          <a class="
+          show-this
+          hidden 
+          md:block 
+          md:hover:underline 
+          decoration-2 
+          decoration-white"  
+          href="#">Support</a>      
+      </div> 
+      <div class="
+      animate-square
+      flex 
+      justify-center 
+      p-8  
+      top-64 
+      text-center
+      mx-auto
+      absolute 
+      md:translate-x-36
+      max-w-xl">
+        <h2  class="
+        hide
+        text-white 
+        border-2 
+        p-5 
+        border-white 
+        uppercase 
+        md:p-5 
+        text-left 
+        md:text-6xl 
+        font-josefin 
+        font-light 
+        text-4xl
+        "><span class="animate-hero block"> Immersive experiences that <br class="md:hidden"> deliver</span></h2> 
+      </div>
+  </nav>
+</header>
+<section class="">
+  <div class=" 
+  trigger
+  justify-center
+  bg-white 
+  mx-auto 
+  px-5
+  md:px-5
+  md:flex
+  md:justify-center
+  lg:flex
+  max-w-5xl
+  ">
+  <img class="
+  w-full 
+  bg-no-repeat
+  mt-12
+  bg-center
+  lg:hidden
+" src="/images/mobile/image-interactive.jpg" alt=""> 
+<img
+class="
+ img-animate
+ hidden 
+ lg:block
+ lg:translate-x-72
+ lg:mt-40
+ md:mt-40
+
+"
+src="/images/desktop/image-interactive.jpg"
+alt=""
+/>
+  </div>
+  <div class="
+ justify-center
+ text-center
+bg-white
+ md:text-left
+ lg:absolute
+ lg:w-1/2
+ lg:pb-0
+ lg:px-0 
+ lg:pl-32
+ lg:pt-12
+ right-0
+-bottom-96
+ lg:translate-y-80
+ max-w-4xl
+  ">
+ <h2 class=" 
+ animation-reveal-head
+ text-center
+ text-3xl
+ lg:text-5xl
+ font-josefin
+ font-normal
+ text-black
+ mt-7
+ lg:text-left
+ uppercase
+ p-5
+ md:-translate-x-12
+ md:-translate-y-10
+ mx-auto
+
+ "><strong class="font-thin">The leader in interactive VR</strong></h2>
+ <p class="
+ animation-reveal-text
+ text-center
+ font-alata
+ text-xl
+ text-dark-gray
+ lg:text-left
+ lg:font-thin
+ p-5
+ lg:-translate-x-12
+ lg:pr-16
+ lg:text-base
+ lg:ml-1
+ ">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+      projects for some of the best companies around the globe. Our award-winning 
+      creations have transformed businesses through digital experiences that bind 
+      to their brand.</p>
+ </div>
+</section class="text-trigger">
+<section>
+<div class="
+h-1/2
+w-full
+flex 
+justify-center
+flex-direction: column;
+mt-20
+relative
+">
+<div class="
+
+">
+<span class="
+animation-reveal-text2
+uppercase
+font-josefin
+text-3xl
+font-thin
+tracking-wider
+md:inline-block
+md:font-normal
+md:text-4xl
+md:mx-auto
+lg:-translate-x-72
+">Our creations</span>
+<button class="
+font-josefin
+font-thin
+text-2xl
+border
+border-black
+text-center
+w-52
+h-16
+hover:bg-black
+hover:text-white
+hidden
+lg:inline
+justify-center
+lg:translate-x-72
+lg:ml-10
+mx-auto
+mt-4
+lg:font-josefin
+lg:font-bold
+lg:text-xs
+md:hidden
+">SEE ALL</button>
+</div>
+</div>
+</section>
+<div class="
+grid-trigger
+w-full
+h-fit
+mt-10
+grid
+grid-rows-8
+p-10
+gap-5
+md:grid-cols-4
+md:grid-flow-row-4
+md:h-fit
+md:gap-5
+md:justify-center
+md:max-w-7xl
+md:mx-auto
+md:px-14
+">
+<div class="
+this
+relative">
+<span class=" 
+deep
+font-josefin
+text-3xl
+font-thin
+text-White
+p-4
+space-y-7
+mt-7
+absolute
+bottom-0
+left-0
+">Deep<br>Earth</span>
+<img class="
+md:hidden
+" src="/images/mobile/image-deep-earth.jpg" alt="">
+<img  class="
+animate-grid
+get-this
+hidden
+md:block
+cursor-pointer
+hover:opacity-60
+duration-150
+" src="/images/desktop/image-deep-earth.jpg" alt=
+"">
+</div>
+<div class="
+relative
+this2
+">
+  <span class=" 
+  font-josefin
+  font-thin
+  text-3xl
+text-white
+  absolute
+  p-4
+  space-y-7
+  mt-7
+  bottom-0
+  left-0
+">NIGHT<br>ARCADE</span>
+<img class="
+md:hidden
+" src="/images/mobile/image-night-arcade.jpg" alt="">
+<img class=" 
+animate-grid
+hidden
+md:block
+cursor-pointer
+hover:opacity-60
+duration-150
+" src="/images/desktop/image-night-arcade.jpg" alt="">
+</div>
+<div class="relative
+this3
+">
+<span class=" 
+font-josefin
+font-thin
+text-3xl
+text-white
+absolute
+p-4
+space-y-7
+mt-7
+bottom-0
+left-0
+">SOCCER<br>TEAM VR</span>
+<img class="
+md:hidden
+" src="/images/mobile/image-soccer-team.jpg" alt="">
+<img class="
+animate-grid
+hidden
+md:block
+cursor-pointer
+hover:opacity-60
+duration-150
+" src="/images/desktop/image-soccer-team.jpg" alt="">
+</div>
+<div class="relative
+this4
+">
+  <span class=" 
+  font-josefin
+  font-thin
+  text-3xl
+text-white
+  absolute
+  p-4
+  space-y-7
+  mt-7
+  bottom-0
+  left-0
+">THE<br>GRID</span>
+<img class="
+md:hidden
+" src="/images/mobile/image-grid.jpg" alt="">
+<img class="
+animate-grid
+hidden
+md:block
+cursor-pointer
+hover:opacity-60
+duration-150
+" src="/images/desktop/image-grid.jpg" alt="">
+</div>
+<div class="relative
+this5
+">
+    <span class=" 
+    font-josefin
+    font-thin
+    text-3xl
+  text-white
+    absolute
+    p-4
+    space-y-7
+    mt-7
+    bottom-0
+    left-0
+  ">FROM UP<br>ABOVE VR</span>
+<img class="
+md:hidden
+" src="/images/mobile/image-from-above.jpg"alt="">
+<img class="
+animate-grid
+hidden
+md:block
+cursor-pointer
+hover:opacity-60
+duration-150
+" src="/images/desktop/image-from-above.jpg" alt="">
+</div>
+<div class="relative
+this6
+">
+  <span class=" 
+  font-josefin
+  font-thin
+  text-3xl
+text-white
+  absolute
+  p-4
+  space-y-7
+  mt-7
+  bottom-0
+  left-0
+  ">POCKET<br>BOREALIS</span>
+<img class="
+md:hidden
+" src="/images/mobile/image-pocket-borealis.jpg" alt="">
+<img class="
+animate-grid
+hidden
+md:block
+cursor-pointer
+hover:opacity-60
+duration-150
+" src="/images/desktop/image-pocket-borealis.jpg" alt="">
+</div>
+<div class="relative  
+this7 
+">
+  <span class=" 
+  font-josefin
+  font-thin
+  text-3xl
+text-white
+  absolute
+  p-4
+  space-y-7
+  mt-7
+  bottom-0
+  left-0
+
+
+">THE<br>CURIOSITY</span>
+<img class="
+md:hidden
+" src="/images/mobile/image-curiosity.jpg" alt="">
+<img class="
+animate-grid
+hidden
+md:block
+cursor-pointer
+hover:opacity-60
+duration-150
+" src="/images/desktop/image-curiosity.jpg" alt="">
+</div>
+<div class="relative
+this8
+">
+  <span class="
+  font-josefin
+  font-thin
+  text-3xl
+text-white
+  absolute
+  p-4
+  space-y-4
+  mt-7
+  bottom-0
+  left-0
+">MAKE IT<br>FISHEYE</span>
+<img class="
+md:hidden
+" src="/images/mobile/image-fisheye.jpg" alt="">
+<img class="
+animate-grid 
+hidden
+md:block
+cursor-pointer
+hover:opacity-60
+duration-150
+" src="/images/desktop/image-fisheye.jpg" alt="">
+</div>
+<button class="
+font-josefin
+font-thin
+text-2xl
+border
+border-black
+text-center
+w-52
+h-16
+hover:bg-black
+hover:text-white
+md:hidden
+justify-center
+mx-auto
+mt-4
+md:translate-y-72
+">SEE ALL</button>
+</div>
+<footer class="
+bg-black
+text-center 
+">
+<div class="
+max-w-7xl
+mx-auto
+px-5	
+py-7
+lg:flex
+justify-center
+items-center
+text-white
+space-y-8
+text-xs
+font-alata
+lg:text-left
+md:gap-12
+lg:items-start
+lg:space-x-10
+lg:space-y-0
+">
+<img class="
+mx-auto
+md:mt-8
+lg:-translate-y-10
+h-5
+lg:-translate-x-24
+"
+src="/images/logo.svg" alt="logo">
+<a class="
+block
+md:hover:underline 
+decoration-2 
+decoration-white
+lg:-translate-x-96
+lg:translate-y-12
+
+"  
+ href="#">About</a>
+<a class="
+
+block
+md:hover:underline 
+decoration-2 
+decoration-white
+lg:-translate-x-96
+lg:translate-y-12
+" href="#">Careers</a>
+<a class="
+block
+md:hover:underline 
+decoration-2 
+decoration-white
+lg:-translate-x-96
+lg:translate-y-12
+" href="#">Events</a>
+<a class="
+block
+md:hover:underline 
+decoration-2 
+decoration-white
+lg:-translate-x-96
+lg:translate-y-12
+" href="#">Products</a>
+<a class="
+block
+decoration-2 
+decoration-white
+md:hover:underline 
+lg:-translate-x-96
+lg:translate-y-12
+" href="#">Support</a>
+<div class="
+gap-5
+cursor-pointer
+inline-flex
+lg:pt-5
+lg:-translate-y-2
+lg:translate-x-40
+lg:p-9
+">
+<img class="" src="/images/icon-facebook.svg" alt="facebook">
+<img class="" src="/images/icon-twitter.svg" alt="twitter">
+<img class=""src="/images/icon-pinterest.svg" alt="pinterest">
+<img class=""src="/images/icon-instagram.svg" alt="instagram">
+</div>
+</div>
+<span class=" 
+text-dark-gray
+text-xs
+-translate-y-5
+block
+lg:float-right
+lg:-translate-x-10
+lg:-translate-y-8
+lg:inline-block
+
+">© 2021 Loopstudios. All rights reserved.</span>
+</div>
+</footer>
+</body>
+<script src="app.js"></script>
+</html>

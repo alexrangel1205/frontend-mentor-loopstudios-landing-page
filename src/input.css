@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-size: 15px;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration-skip-ink: none;
+}
+
+.this > span{
+    color:white;
+    z-index: 2;
+
+
+    
+}
+.this2 > span{
+    color:white;
+    z-index: 2;
+ 
+}
+.this3 > span{
+    color:white ;
+    z-index: 2;
+   
+}
+.this4 > span{
+    color:white;
+    z-index: 2;
+  
+}
+.this5 > span{
+    color:white;
+    z-index: 2;
+    
+}
+.this6 > span{
+    color:white;
+    z-index: 2;   
+}
+.this7 > span{
+    color:white;
+    z-index: 2;
+
+  
+}
+.this8 > span{
+    color:white;
+    z-index: 2;   
+}
