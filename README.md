@@ -1,4 +1,4 @@
-# Frontend Mentor - Loopstudios landing page solution
+# Frontend Mentor - Loopstudios Landing Page Solution
 
 ## Table of contents
 
